@@ -48,9 +48,10 @@ let negvalue = -valuex
 let x = 5
 const y = ++x
 console.log(`x:${x},y:${y}`);
+//x=6;y=6 bucz of prefixs ++x means 1+x then it resign the value of x =6 and y= 6;
 
 let a = 5
 const b = a++
 console.log(`a:${a},b:${b}`);
-
+//a:6,b:5 bucz of postfixs a++ is a+1 then it resign the value of a=6 and b be the same a value that is 5;
 
