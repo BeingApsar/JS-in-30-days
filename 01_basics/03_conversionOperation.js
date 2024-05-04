@@ -35,6 +35,22 @@ let booleanisLoggedIN = Boolean(isLoggedIN)
 
 
 
+//************************************** operations *************************************
 
+let valuex = 3
+let negvalue = -valuex
+//console.log(negvalue)
+
+// console.log(2+2)
+// console.log("2"+1+7)
+// console.log(2+3+"5")
+
+let x = 5
+const y = ++x
+console.log(`x:${x},y:${y}`);
+
+let a = 5
+const b = a++
+console.log(`a:${a},b:${b}`);
 
 
